@@ -4,7 +4,7 @@ This project aim to integrate `Blazor` (https://docs.microsoft.com/en-us/aspnet/
 
 ## Installation
 
-Not need addittionaly packages installation.
+Not need addittional packages installation.
 
 ## Usage
 
