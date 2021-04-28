@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/server/build
+
+/hivemq
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/hivemq
+proxy-local/server.crt
+proxy-local/server.key
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+.vscode
+.eslintcache
+
+package-lock.json
+# vs code error logs
+report*.json
+
+# gitlab ci
+/builds
+/cache
+
+obj/*
+bin/*
+
+.vs/*

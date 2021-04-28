@@ -1,0 +1,18 @@
+﻿@inject IJSRuntime JS;
+
+<h3>Diagram</h3>
+
+<div class="container-diagram" @ref="container"></div>
+
+@code
+{
+    private ElementReference container;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("main", container);
+        }
+    }
+}
